@@ -7,4 +7,6 @@
     - name: test connection
       ping:
       remote_user: lxg
+    - name: check nginx version
+      command: nginx -V
     
