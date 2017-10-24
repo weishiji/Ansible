@@ -1,0 +1,10 @@
+---
+- hosts: webserver
+  vars:
+    http_port: 80
+  remote_user: lxg
+  tasks:
+    - name: test connection
+      ping:
+      remote_user: lxg
+    
